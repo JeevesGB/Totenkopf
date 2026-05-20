@@ -5,6 +5,7 @@
 
     Enemy parameters have been tweaked as well as more spawns and fewer resources (Ammo/Health)
 
+    This project is currently work in progress.
+
 ### What do I need?
     [iortcw](https://github.com/iortcw/iortcw) is required for this mod. 
-
