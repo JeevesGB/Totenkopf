@@ -8,4 +8,4 @@
     This project is currently work in progress.
 
 ### What do I need?
-    [iortcw](https://github.com/iortcw/iortcw) is required for this mod. 
+[iortcw](https://github.com/iortcw/iortcw) is required for this mod. 
