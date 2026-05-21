@@ -9,7 +9,7 @@
 ### Display & Resolution
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `r_fullscreen` | `0` | AL | Fullscreen mode |
 | `r_mode` | `4` | AL | Resolution mode index |
 | `r_customwidth` | `1600` | AL | Custom resolution width |
@@ -29,7 +29,7 @@
 ### Texture & Image Quality
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `r_picmip` | `1` | AL | Texture mip level (lower = sharper) |
 | `r_picmip2` | `2` | AL | Secondary texture mip level |
 | `r_texturebits` | `32` | AL | Texture colour depth |
@@ -49,7 +49,7 @@
 ### OpenGL Extensions
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `r_allowExtensions` | `1` | AL | Allow OpenGL extensions |
 | `r_ext_compressed_textures` | `0` | AL | Compressed texture support |
 | `r_ext_multitexture` | `1` | AL | Multitexture support |
@@ -67,7 +67,7 @@
 ### Lighting & Shadows
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `r_dynamiclight` | `1` | A | Enable dynamic lights |
 | `r_dlightScale` | `1.0` | A | Dynamic light scale |
 | `r_dlightBacks` | `1` | A | Light back surfaces |
@@ -82,7 +82,7 @@
 ### Visual Effects
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `r_flares` | `1` | A | Enable lens flares |
 | `r_flareSize` | `40` | C | Flare size |
 | `r_flareFade` | `5` | C | Flare fade speed |
@@ -105,7 +105,7 @@
 ### Performance & Debug
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `r_gamma` | `1` | A | Display gamma |
 | `r_lodbias` | `0` | A | LOD bias |
 | `r_lodscale` | `5` | C | LOD scale |
@@ -167,7 +167,7 @@
 ### ATI TruForm
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `r_ati_truform_tess` | `1` | A | ATI TruForm tessellation |
 | `r_ati_truform_normalmode` | `QUADRATIC` | A | TruForm normal mode |
 | `r_ati_truform_pointmode` | `CUBIC` | A | TruForm point mode |
@@ -179,7 +179,7 @@
 ## HUD & Client Display
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `cg_draw2D` | `1` | A? | Enable 2D HUD |
 | `cg_drawFPS` | `1` | A? | Show FPS counter |
 | `cg_drawTimer` | `1` | A? | Show game timer |
@@ -215,7 +215,7 @@
 ## Crosshair
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `cg_drawCrosshair` | `8` | A | Crosshair style (0=off) |
 | `cg_drawCrosshairNames` | `1` | A | Show player names on crosshair |
 | `cg_drawCrosshairPickups` | `1` | A | Show pickup hints |
@@ -237,7 +237,7 @@
 ## Field of View & Camera
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `cg_fov` | `100` | A? | Field of view |
 | `cg_zoomfov` | `22.5` | A? | Zoom FOV |
 | `cg_zoomDefaultBinoc` | `22.5` | A? | Binoculars default zoom FOV |
@@ -259,7 +259,7 @@
 ## Weapons
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `cg_drawGun` | `1` | A? | Draw weapon model |
 | `cg_drawFPGun` | `1` | A? | Draw first-person weapon |
 | `cg_drawAllWeaps` | `1` | A? | Show all weapons on HUD |
@@ -276,7 +276,7 @@
 ## Movement & Camera Bob
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `cg_bobup` | `0.005` | A? | View bob up amplitude |
 | `cg_bobpitch` | `0.002` | A? | View bob pitch |
 | `cg_bobroll` | `0.002` | A? | View bob roll |
@@ -288,7 +288,7 @@
 ## Mouse & Input
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `sensitivity` | `5` | A | Mouse sensitivity |
 | `m_pitch` | `0.022` | A | Mouse pitch scale |
 | `m_yaw` | `0.022` | A | Mouse yaw scale |
@@ -313,7 +313,7 @@
 ### Joystick Axes
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `j_pitch` | `0.022` | A | Joystick pitch scale |
 | `j_yaw` | `-0.022` | A | Joystick yaw scale |
 | `j_forward` | `-0.25` | A | Joystick forward scale |
@@ -330,7 +330,7 @@
 ## Sound
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `s_volume` | `0.468750` | A | Sound effects volume |
 | `s_musicvolume` | `0.166667` | A | Music volume |
 | `s_doppler` | `1` | A | Enable Doppler effect |
@@ -363,7 +363,7 @@
 ## Network
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `net_ip` | `0.0.0.0` | L | Server/client IPv4 bind address |
 | `net_ip6` | `::` | L | Server/client IPv6 bind address |
 | `net_port` | `27960` | L | Network port |
@@ -387,7 +387,7 @@
 ## Client
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `cl_maxpackets` | `38` | A | Max packets per second |
 | `cl_packetdup` | `1` | A | Duplicate packets sent |
 | `cl_maxPing` | `800` | A | Max acceptable ping |
@@ -429,7 +429,7 @@
 ### VoIP
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `cl_voip` | `1` | A | Enable VoIP |
 | `cl_voipProtocol` | `opus` | UR | VoIP codec protocol |
 | `cl_voipSend` | `0` | — | Currently transmitting VoIP |
@@ -445,7 +445,7 @@
 ## Server
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `sv_hostname` | `noname` | SA | Server name |
 | `sv_maxclients` | `64` | SAL | Max connected clients |
 | `sv_fps` | `20` | — | Server tick rate |
@@ -496,7 +496,7 @@
 ## Game & Gameplay
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `g_gametype` | `2` | SAL | Game type |
 | `g_gameskill` | `1` | SAL | Game skill level |
 | `g_spSkill` | `2` | AL | SP skill level |
@@ -528,7 +528,7 @@
 ## Physics & Simulation
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `timescale` | `1` | sC | Time scale (0.5=slow, 2=fast) |
 | `fixedtime` | `0` | C | Fixed frame time |
 | `timedemo` | `0` | C | Timedemo mode |
@@ -539,7 +539,7 @@
 ## System & Engine
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `com_maxfps` | `100` | A | Maximum FPS |
 | `com_maxfpsUnfocused` | `0` | A | FPS cap when unfocused |
 | `com_maxfpsMinimized` | `0` | A | FPS cap when minimised |
@@ -575,7 +575,7 @@
 ### File System
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `fs_basepath` | *(game dir)* | I | Base game path |
 | `fs_homepath` | *(user dir)* | I | User data path |
 | `fs_steampath` | *(steam dir)* | I | Steam installation path |
@@ -587,7 +587,7 @@
 ### Virtual Machine
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `vm_cgame` | `0` | A | CGame VM type (0=native) |
 | `vm_game` | `0` | A | Game VM type |
 | `vm_ui` | `0` | A | UI VM type |
@@ -598,7 +598,7 @@
 ## Console & Debug
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `scr_conspeed` | `3` | — | Console scroll speed |
 | `con_notifytime` | `3` | — | Notification display time (s) |
 | `con_autochat` | `1` | A | Console auto-chat |
@@ -618,7 +618,7 @@
 ## Bots
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `bot_enable` | `1` | — | Enable bot support |
 | `bot_minplayers` | `0` | — | Min players (fill with bots) |
 | `bot_thinktime` | `100` | — | Bot think interval (ms) |
@@ -639,7 +639,7 @@
 ## Player & User Info
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `name` | `WolfPlayer` | UA | Player name |
 | `model` | `bj2` | UA | Player model |
 | `head` | `default` | UA | Player head model |
@@ -663,7 +663,7 @@
 ## UI
 
 | CVar | Default | Flags | Description |
-|---|---|---|---|
+| `` `` | `` `` |---|---|
 | `ui_initialized` | `0` | — | UI initialised flag |
 | `ui_debug` | `0` | — | UI debug mode |
 | `ui_cmd` | `` | — | Pending UI command |
