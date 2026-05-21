@@ -1,28 +1,5 @@
-# **Totenkopf**
-
-### What is it?
-
-Totenkopf is a Hardmode Mod for Return To Castle Wolfenstein.
-Enemy parameters have been tweaked to make them more challenging as well as altering some of their weapons.
-
-**This project is currently work in progress.**
-
----
-
-### What do I need?
-[iortcw](https://github.com/iortcw/iortcw) is required for this mod and it is reccomended to make a backup of your original RTCW installation before applying the mod.
-
----
-
-### How to install.
-Copy the _totenkopf.pk3 file into your RTCW/Main directory. 
-
----
-
-### Useful in game commands.
-
-
-```
+Core Cheat Commands
+Command	Effect
 /god	God mode
 /noclip	Fly through walls
 /notarget	Enemies ignore you
@@ -128,6 +105,37 @@ Command	Effect
 /g_speed 500	Super speed
 
 
-```
 
----
+
+
+.ai commands 
+
+		// Weapons
+		giveweapon weapon_knife
+		giveweapon weapon_luger
+		giveweapon weapon_colt
+		giveweapon weapon_colt
+		giveweapon weapon_thompson
+		giveweapon weapon_mp40
+		giveweapon weapon_sten
+		giveweapon weapon_mauserRifle
+		giveweapon weapon_sniperscope
+		giveweapon weapon_snooperrifle
+		giveweapon weapon_fg42
+		giveweapon weapon_flamethrower
+		giveweapon weapon_venom
+
+		// Ammo
+		setammo ammo_grenades_american 
+		setammo ammo_792mm 
+		setammo ammo_9mm 
+		setammo ammo_grenades 
+		setammo ammo_fuel 
+		setammo ammo_127mm 
+		setammo ammo_45cal 
+		setammo ammo_30cal 
+		setammo weapon_fg42 
+
+        // Items
+		setarmor 50
+        		selectweapon weapon_  // ai or player will use this weapon 
