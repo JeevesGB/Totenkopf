@@ -6,22 +6,23 @@ A Hardmode Mod for **Return To Castle Wolfenstein** that tweaks enemy parameters
 
 ---
 
-## Requirements
+### Requirements
 
 - [iortcw](https://github.com/iortcw/iortcw) — required to run this mod
 - A backup of your original RTCW installation is strongly recommended
 
 ---
 
-## Installation
+### Installation
 
 Copy `_totenkopf.pk3` into your `RTCW/Main` directory.
 
 ---
 
-## Console Commands
 
-### General Cheats
+# Console Commands
+
+## General Cheats
 
 | Command | Effect |
 |---|---|
@@ -34,7 +35,7 @@ Copy `_totenkopf.pk3` into your `RTCW/Main` directory.
 
 ---
 
-### Give Commands
+## Give Commands
 
 | Command | Effect |
 |---|---|
@@ -48,27 +49,30 @@ Copy `_totenkopf.pk3` into your `RTCW/Main` directory.
 
 ---
 
-### Weapon Spawns 
+## Weapon Spawns 
 (`/give <weapon>`)
 
 | Command | Weapon |
 |---|---|
-| `/give thompson` | Thompson SMG |
+| `/give binoculars` | Binoculars |
+| `/give knife` | Knife |
+| `/give luger` | Luger |
 | `/give mp42` | MP40 |
+| `/give thompson` | Thompson SMG |
+| `/give sten` | Sten |
+| `/give fg42` | FG42 |
 | `/give mauser rifle` | Mauser |
 | `/give sniper rifle` | Scoped Mauser |
 | `/give panzerfaust` | Rocket Launcher |
 | `/give flamethrower` | Flamethrower |
-| `/give sten` | Sten |
-| `/give fg42` | FG42 |
+| `/give tesla` | Tesla |
+| `/give venom` | Venom |
 | `/give grenade` | Grenades |
 | `/give dynamite` | Dynamite |
-| `/give knife` | Knife |
-| `/give binoculars` | Binoculars |
 
 ---
 
-### Ammo Spawns 
+## Ammo Spawns 
 (`/give <ammo>`)
 
 | Command | Ammo |
@@ -164,6 +168,13 @@ Use `/spdevmap <mapname>` to warp to any level.
 | Ending | `end` |
 
 **Example:** `/spdevmap xlabs`
+
+---
+
+# Cvars
+**CVars** (Console Variables) are configurable settings built into the Quake III engine that RTCW runs on. They control everything from graphics and sound to gameplay and network behaviour, and can be changed at runtime by typing them directly into the game console. Most are saved to your config file and persist between sessions.
+
+[CVar Reference](utils/public/docs/CVARS.md)
 
 ---
 
