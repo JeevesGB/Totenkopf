@@ -110,7 +110,7 @@
 
 ### Camera & View
 
-| `/cg_FOV 90` | Change FOV |
+| `/cg_fov 125` | Change FOV |
 
 | `/cg_thirdperson 1` | Third-person camera |
 
