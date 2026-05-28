@@ -65,6 +65,12 @@ A Hardmode Mod for **Return To Castle Wolfenstein** that tweaks enemy parameters
 
 Copy **`_totenkopf.pk3`** into your **`RTCW/Main`** directory. Optionally you can copy **`autoexec.cfg`** to **`RTCW/Main`**.
 
+### autoexec.cfg
+```
+set devdll 1
+com_introplayed 1
+```
+
 ---
 # Console Commands
 [Console commands](utils/public/docs/CMDLIST.MD)
