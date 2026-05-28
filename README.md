@@ -131,3 +131,59 @@ Open **`bsp2map.bat`** in a text editor and put your path's within:
 Save and then run the file. 
 
 **The process may take some time and some textures/shaders may not convert correctly**
+
+---
+
+# What are .ai scripts?
+
+Put simply .ai scripts tell your player / actors what to do they store such information like weapon and ammo type, their animation calls amongst other things, a small example can be seen here taken from boss1.ai.
+
+```
+helga_zombie	// reincarnation of helga
+{
+	attributes
+	{
+		pain_threshold_scale 50
+		starting_health 1000
+		aggression 1.0
+		fov 360
+	}
+
+	spawn
+	{
+		accum 0 set 0 // 1 = helga has broken gate
+		accum 1 set 0 // 1 = fired fakedeath
+		accum 2 set 0 // 1 = gate blown
+		statetype alert
+		knockback off
+		godmode on
+		nosight 999999
+		wait 100
+		runtomarker helga1 nostop
+		runtomarker helga2 nostop
+		alertentity closedoor
+		runtomarker helga3 nostop
+		runtomarker helga4 nostop
+		runtomarker helga5 nostop
+		godmode off
+		runtomarker helga6
+		alertentity blowfence
+		accum 2 set 1 // 1 = gate blown
+		playanim attack3 both
+		trigger player phitcorner1	// simulate hitting a corner to force some zombie out of their coffins
+		runtomarker helga7
+		attrib pain_threshold_scale 10
+		sight
+		accum 0 set 1
+		gotocast player
+	}
+
+    .
+    .
+    .
+
+```
+
+This mod alters certain parts of these .ai script files to make the game more challenging for experienced players. 
+
+---
