@@ -98,3 +98,36 @@ You are then able to type `/condump cvar.txt` into the console and this will the
 **[CVar Reference](utils/public/docs/CVARS.md)**
 
 ---
+
+# Utils
+
+Within the *`utils/public/bat`* folder you will find **`bsp2map.bat`**. This simple batch file will allow you to convert the original map .bsp files located within **`RTCW/Main/pak0.pk3`** back into editable .map files. 
+
+```
+@echo off
+set "Q3MAP2=path\to\q3map2.exe"
+set "INPUTDIR=path\to\input\directory"
+set "OUTPUTDIR=path\to\output\directory"
+
+if not exist "%OUTPUTDIR%" mkdir "%OUTPUTDIR%"
+
+for %%f in ("%INPUTDIR%\*.bsp") do (
+    echo Converting %%~nxf...
+    "%Q3MAP2%" -game wolf -convert -format map -v "%%f"
+    move "%%~dpnf.map" "%OUTPUTDIR%"
+)
+
+echo Done!
+pause
+```
+Open **`bsp2map.bat`** in a text editor and put your path's within:
+
+-`set "Q3MAP2="`
+
+-`set "INPUTDIR="`
+
+-`set "OUTPUTDIR="`
+
+Save and then run the file. 
+
+**The process may take some time and some textures/shaders may not convert correctly**
