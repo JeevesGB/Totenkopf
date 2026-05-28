@@ -187,3 +187,126 @@ helga_zombie	// reincarnation of helga
 This mod alters certain parts of these .ai script files to make the game more challenging for experienced players. 
 
 ---
+
+# What are .script files?
+
+The .script files from baseout.script, assault.script for example are brush/entity scripts that drive dynamic map behaviour at runtime. 
+
+They control AI triggers and enemy wave spawning, scripted entity animations (the rotating radar dish and its destruction sequence), objective state tracking (e.g. whether the radar has been destroyed), timed event chains, and conditional logic based on in-game conditions. 
+
+These files are loaded automatically by the engine alongside the compiled .bsp and require no additional setup.
+
+An example of .script files can be seen here.
+
+```
+dialog // dialog counter
+{
+	spawn
+	{
+		accum 0 bitset 0
+		accum 0 bitset 1
+		accum 0 bitset 2
+		accum 0 bitset 3
+	}
+
+	trigger timeing
+	{
+		accum 0 abort_if_not_bitset 0
+		wait 1200
+		trigger nazi1 door1
+		wait 7500
+		trigger nazi1 answer1
+		wait 6000
+		trigger nazi1 answer2
+	}
+
+	trigger killdialog1
+	{
+		accum 0 abort_if_not_bitset 0
+		accum 0 bitreset 0
+		accum 0 bitreset 1
+		resetscript
+	}
+
+	trigger radiotune
+	{
+		accum 0 abort_if_not_bitset 1
+		trigger nazi2 reply1a
+		trigger nazi3 talk3
+		wait 3000
+		trigger nazi3 weather
+		wait 6100
+		trigger nazi3 thanks
+	}
+
+	trigger killdialog2
+	{
+		accum 0 abort_if_not_bitset 1
+		accum 0 bitreset 0
+		accum 0 bitreset 1
+		resetscript
+	}
+
+	trigger anynews
+	{
+		accum 0 abort_if_not_bitset 2
+		wait 900
+		trigger nazi5 reply5a
+		wait 1800
+		trigger nazi2 reply2a
+		wait 3700
+		trigger nazi5 reply5b
+		wait 3500
+//		trigger nazi2 reply2b
+		wait 3000
+		trigger nazi5 reply5c
+		wait 2800
+		trigger nazi2 reply2c
+	}
+
+	trigger killdialog3
+	{
+		accum 0 abort_if_not_bitset 2
+		accum 0 bitreset 2
+		resetscript
+	}
+
+	trigger radiotalk
+	{
+		accum 0 abort_if_not_bitset 3
+		trigger nazi12 radio12a
+		wait 2800
+		trigger nazi13 radio13a
+		wait 2250
+		trigger nazi12 radio12b
+		wait 4500
+		trigger nazi13 radio13b
+		wait 2700
+		trigger nazi12 radio12c
+		wait 2700
+		trigger nazi13 radio13c
+		wait 3600
+		trigger nazi12 radio12d
+		wait 3800
+		trigger nazi12 towindow
+		wait 200
+		trigger nazi13 toradio
+	}
+
+	trigger killdialog4
+	{
+		accum 0 abort_if_not_bitset 3
+		accum 0 bitreset 3
+		resetscript
+	}
+
+}
+
+.
+.
+.
+
+```
+
+---
+
