@@ -1,4 +1,8 @@
-# Totenkopf
+
+
+![](logo.png)
+
+
 
 A Hardmode Mod for **Return To Castle Wolfenstein** that tweaks enemy parameters and weapons to increase difficulty.
 > ⚠️ **Work in progress**
@@ -96,6 +100,12 @@ You can generate a list in the console by typing `/cvarlist`.
 You are then able to type `/condump cvar.txt` into the console and this will then save to your `Documents/RTCW/main` directory.
 
 **[CVar Reference](utils/public/docs/CVARS.md)**
+
+---
+
+# Map Info
+
+[Google Sheet](https://docs.google.com/spreadsheets/d/1WNbb9BuFqzYIRbGS05KWTZ2ceKHzF7NfaJCFXsRv0qo/edit?usp=sharing)
 
 ---
 
