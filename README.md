@@ -105,7 +105,7 @@ You are then able to type `/condump cvar.txt` into the console and this will the
 
 # Map Info
 
-[Google Sheet](https://docs.google.com/spreadsheets/d/1WNbb9BuFqzYIRbGS05KWTZ2ceKHzF7NfaJCFXsRv0qo/edit?usp=sharing)
+**[Google Sheet](https://docs.google.com/spreadsheets/d/1WNbb9BuFqzYIRbGS05KWTZ2ceKHzF7NfaJCFXsRv0qo/edit?usp=sharing)**
 
 ---
 
