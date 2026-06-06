@@ -7,7 +7,7 @@ if %errorlevel% neq 0 (
     echo.
     echo To add Python to PATH:
     echo.
-    echo   OPTION 1 - Reinstall Python ^(easiest^):
+    echo   OPTION 1 - Install Python:
     echo     1. Go to https://www.python.org/downloads/
     echo     2. Run the installer
     echo     3. Check "Add python.exe to PATH" on the first screen
