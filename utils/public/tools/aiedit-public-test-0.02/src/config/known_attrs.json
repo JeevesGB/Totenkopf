@@ -1,0 +1,42 @@
+{
+    "starting_health": {
+        "label": "Health",
+        "type": "int",
+        "description": "Starting HP for this entity"
+    },
+    "aggression": {
+        "label": "Aggression",
+        "type": "float",
+        "description": "0.0 = passive, 1.0 = max aggression"
+    },
+    "aim_accuracy": {
+        "label": "Aim Accuracy",
+        "type": "float",
+        "description": "0.0 = terrible, 1.0 = perfect"
+    },
+    "attack_skill": {
+        "label": "Attack Skill",
+        "type": "float",
+        "description": "Overall combat skill"
+    },
+    "fov": {
+        "label": "Field of View",
+        "type": "int",
+        "description": "Vision cone in degrees"
+    },
+    "camper": {
+        "label": "Camper",
+        "type": "float",
+        "description": "Tendency to stay put (0-1)"
+    },
+    "tactical": {
+        "label": "Tactical",
+        "type": "float",
+        "description": "Use of cover / tactics (0-1)"
+    },
+    "alertness": {
+        "label": "Alertness",
+        "type": "int",
+        "description": "How quickly entity notices threats"
+    }
+}
