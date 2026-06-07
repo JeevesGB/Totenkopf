@@ -142,6 +142,20 @@ Save and then run the file.
 
 **The process may take some time and some textures/shaders may not convert correctly**
 
+# AIEdit 
+
+[AIEdit](https://github.com/JeevesGB/Totenkopf/releases/tag/AIEdit-0.1) is an easy to use tool to add/remove/edit attributes for .ai entities. 
+
+**Source code can be found in `utils/public/tools/aiedit-public-test-0.02`**
+
+Images
+
+<img src="utils/public/docs/img/1.png" width="400"/>
+
+<img src="utils/public/docs/img/2.png" width="400"/>
+
+<img src="utils/public/docs/img/3.png" width="400"/>
+
 ---
 
 # What are .ai scripts?
