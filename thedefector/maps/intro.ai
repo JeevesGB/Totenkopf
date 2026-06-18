@@ -1,0 +1,211 @@
+//  _____ _            ____        __           _             
+// |_   _| |__   ___  |  _ \  ___ / _| ___  ___| |_ ___  _ __ 
+//   | | | '_ \ / _ \ | | | |/ _ \ |_ / _ \/ __| __/ _ \| '__|
+//   | | | | | |  __/ | |_| |  __/  _|  __/ (__| || (_) | |   
+//   |_| |_| |_|\___| |____/ \___|_|  \___|\___|\__\___/|_|   	JeevesGB
+
+//PLAYER
+player 
+{
+	playerstart 
+	{
+		mu_start sound/music/m_assault
+		print The Defector
+	}
+
+	spawn
+	{
+		mu_start sound/music/l_theme
+	}
+
+	trigger musickill
+	{
+		mu_stop 
+	}
+}
+
+// SOLDIERS
+	//walking out of spawn room 
+soldier1
+{
+	attributes
+	{
+		fov 90
+		hearing_scale 0.0
+	}
+
+	spawn
+	{
+		wait 1000
+		trigger soldier1 walking
+	}
+
+	trigger walking
+	{
+		walktomarker marker1
+		walktomarker marker2
+		trigger soldier1 walking
+	}
+
+	enemysight
+	{
+		resetscript
+	}
+}
+
+soldier2
+{
+	spawn
+	{
+		
+	}
+	trigger walking
+	{
+
+	}
+}
+
+soldier3
+{
+	spawn
+	{
+		
+	}
+	trigger walking
+	{
+
+	}
+}
+
+soldier4
+{
+	spawn
+	{
+		
+	}
+	trigger walking
+	{
+
+	}
+}
+
+// SCIENTISTS 
+scientist1
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist2
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist3
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist4
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist5
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist6
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist7
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist8
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist9
+{
+	spawn
+	{
+
+	}
+	trigger walking
+	{
+
+	}
+}
+
+scientist10
+{
+	spawn
+	{
+		
+	}
+	trigger walking
+	{
+
+	}
+}

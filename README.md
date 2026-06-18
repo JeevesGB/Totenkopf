@@ -67,7 +67,7 @@ A Hardmode Mod for **Return To Castle Wolfenstein** that tweaks enemy parameters
 
 # Requirements
 
-- **[iortcw](https://github.com/iortcw/iortcw)** — required to run this mod.
+- **[richterite](https://github.com/nathan-baggs/richterite)** — rechterite by Nathan Baggs allows you to run the original WolfSP exectutable without the need for 3rd party patches.
 - **Making a backup of your original RTCW installation is strongly recommended.**
 
 ---
@@ -82,6 +82,11 @@ Put **`_totenkopf.pk3`** into your **`RTCW/Main`** directory. Optionally you can
 set devdll 1
 com_introplayed 1
 ```
+
+---
+
+# The Defector
+**[Info](thedefector/README.md)**
 
 ---
 
