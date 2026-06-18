@@ -41,3 +41,4 @@ Within the *thedefector* folder you will see:
 
 ---
 
+This production is a work of fiction, any reseblence to persons living/dead are purely coincidental. 
