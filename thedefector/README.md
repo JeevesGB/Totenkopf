@@ -5,6 +5,27 @@ The Defector is a mod where you play as a Scientist working deep within a top se
 
 ---
 
+Within the *thedefector* folder you will see:
+
+```
+
+    bts--
+        |
+        images
+
+    maps--
+          |
+          levels
+    
+    prefabs--
+             |
+             furnature/props/lights/etc
+```
+
+
+
+---
+
 ![](bts/1.png)
 
 ![](bts/2.png)
@@ -16,3 +37,7 @@ The Defector is a mod where you play as a Scientist working deep within a top se
 ![](bts/5.png)
 
 ![](bts/6.png)
+
+
+---
+
