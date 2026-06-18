@@ -143,9 +143,16 @@ Open **`bsp2map.bat`** in a text editor and put your path's within:
 
 -`set "OUTPUTDIR="`
 
-Save and then run the file. 
+Save and then run the file.
 
 **The process may take some time and some textures/shaders may not convert correctly**
+
+# VSCode Exstensions
+
+This [Extension](utils/public/VSCodeExtensions/rtcw-tools-combined-1_0_0.vsix) provides syntax highlighting to **.ai / .script / .map / .bak / .menu** files.
+
+<img src="utils/priv/img/without.png" width="400"> <img src="utils/priv/img/with.png" width="400">
+
 
 # AIEdit 
 
