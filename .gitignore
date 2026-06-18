@@ -1,9 +1,13 @@
--vanilla 
--modified 
-pk3
-logs
-converted
-utils/priv
+# Folders
+-vanilla/
+-modified/
+pk3/
+logs/
+converted/
+utils/priv/
+
+
+# Files
 _totenkopf.pk3
 .~lock.aidoc.ods#
 *.wav
