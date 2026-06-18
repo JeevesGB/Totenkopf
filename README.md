@@ -67,7 +67,7 @@ A Hardmode Mod for **Return To Castle Wolfenstein** that tweaks enemy parameters
 
 # Requirements
 
-- **[richterite](https://github.com/nathan-baggs/richterite)** — rechterite by Nathan Baggs allows you to run the original WolfSP exectutable without the need for 3rd party patches.
+- **[richterite](https://github.com/nathan-baggs/richterite)** — richterite by Nathan Baggs allows you to run the original WolfSP exectutable without the need for 3rd party patches.
 - **Making a backup of your original RTCW installation is strongly recommended.**
 
 ---
